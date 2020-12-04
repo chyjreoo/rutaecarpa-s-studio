@@ -259,7 +259,7 @@ ul{
 @media (max-width: 320px) {
 	.logobox{
 		position: absolute;
-		top: 24px;
+		top: 0px;
 		right: 24px;
 	}
 	.logo{
@@ -271,8 +271,8 @@ ul{
 		display: none;
 	}
 	.navbar{
-		top: 150px;
-		right: 40px;
+		top: 120px;
+		right: 25px;
 	}
 }
 .website-title{
@@ -342,11 +342,11 @@ ul{
 		width: 120px;
 	}
 	.nav{
-		margin-top: 24px;
+		margin-top: 12px;
 	}
 	.menu-item{
 		font-size: 14px;
-		padding: 12px 0;
+		padding: 8px 0;
 	}
 }
 
