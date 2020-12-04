@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	//wow.js 
+	new WOW().init();
 	// owl-carousel
 	$('.owl-carousel').owlCarousel({
 	    loop:false,
@@ -45,6 +47,7 @@ $(document).ready(function(){
 				$("#toggle-burger").addClass("active");
 			}
 		})
+
 
 
 		
