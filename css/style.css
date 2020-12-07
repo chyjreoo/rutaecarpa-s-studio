@@ -256,6 +256,21 @@ ul{
 		line-height: 24px;
 	}
 }
+@media (max-width: 425px){
+	.logo{
+		top: 32px;
+		left: 65%;
+		width: 90px;
+	}
+	.slogan{
+		display: none;
+	}
+}
+@media (max-width: 375px){
+	.logo{
+		width: 80px;
+	}
+}
 @media (max-width: 320px) {
 	.logobox{
 		position: absolute;
@@ -335,6 +350,29 @@ ul{
 	}
 	.menu-item .item-dec{
 		height: 20px;
+	}
+}
+@media (max-width: 425px){
+	.website-title{
+		width: 170px;
+	}
+	.nav{
+		margin-top: 20px;
+	}
+	.menu-item{
+		padding: 14px 0;
+	}
+}
+@media (max-width: 375px){
+	.website-title{
+		width: 160px;
+	}
+	.nav{
+		margin-top: 24px;
+	}
+	.menu-item{
+		font-size: 15px;
+		padding: 16px 0;
 	}
 }
 @media (max-width: 320px){
@@ -587,8 +625,20 @@ ul{
 		margin-left: 4px;
 	}
 }
+@media (max-width: 425px){
+	.eventbar{
+		bottom: 3%;
+	}
+}
+@media (max-width: 375px){
+	.hero{
+		height: 75vh;
+	}
+	.eventbar{
+		display: none;
+	}
+}
 @media (max-width: 320px){
-	
 	.eventbar{
 		display: none;
 	}
